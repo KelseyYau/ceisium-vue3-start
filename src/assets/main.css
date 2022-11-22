@@ -1,0 +1,13 @@
+@import "./base.css";
+@import "/lib/Widgets/widgets.css";
+
+html,body {
+  width: 100%;
+  height: 100%;
+}
+
+#app {
+  width: 100%;
+  height: 100%;
+  font-weight: normal;
+}
