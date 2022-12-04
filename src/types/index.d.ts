@@ -1,3 +1,5 @@
+import { Viewer } from './Cesium.d';
 interface Window {
-  cesium: Cesium;
+  Cesium: Cesium;
+  viewer: Viewer;
 }
