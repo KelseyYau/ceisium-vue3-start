@@ -11,7 +11,7 @@ export default defineConfig({
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url)),
-      'cesium': path.resolve(__dirname, "./public/lib/Cesium.js")
+      'cesium': path.resolve(__dirname, "./public/lib2/Cesium.js")
     }
   },
   server: {

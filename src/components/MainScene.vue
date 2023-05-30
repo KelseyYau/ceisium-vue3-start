@@ -1,11 +1,10 @@
 <script setup lang="ts">
-import * as Cesium from 'cesium';
 import { onMounted, ref } from 'vue';
 
 onMounted(() => {
   let ele = ref("cesiumContainer")
-  window.viewer = new Cesium.Viewer(ele.value, {
-    imageryProvider: new Cesium.ArcGisMapServerImageryProvider({
+  window.viewer = new window.Cesium.Viewer(ele.value, {
+    imageryProvider: new window.Cesium.ArcGisMapServerImageryProvider({
       url:
         "https://services.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer/",
     })
